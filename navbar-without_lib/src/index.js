@@ -12,6 +12,6 @@ if(currentPath=='/'){
    root.render(<Home/>)
 }else if(currentPath=='/about'){
    root.render(<About/>)
-}else if(currentPath=='/contact'){
+}else if(currentPath =='/contact'){
   root.render(<Contact/>)
 }
