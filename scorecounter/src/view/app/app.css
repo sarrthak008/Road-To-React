@@ -1,0 +1,26 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    position: relative;
+}
+
+.vslogo{
+    height: 20vw;
+}
+
+.resultBtn{
+    position: absolute;
+    bottom: 10%;
+    left:45%;
+    z-index: 10;
+    padding:1vh 4vw;
+    cursor: pointer;
+    background-color: #7fc5ff;
+    border: none;
+    box-shadow: 20px 20px 40px #a8d8fe;
+    border-radius: 2px;
+}
