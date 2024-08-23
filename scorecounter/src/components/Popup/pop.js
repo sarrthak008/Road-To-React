@@ -16,7 +16,7 @@ const PopUp = ({ team1score, team2score,popupstate}) => {
          <div className='result'>
              {winner}
           <img src={closeImg} className='closepopup' onClick={()=>{
-             //popupstate(false)
+             popupstate(false)
           }}></img>
          </div>
       </div>
